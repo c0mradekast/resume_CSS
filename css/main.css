@@ -1,14 +1,4 @@
-body {
-  background: url("images/native_painting.jpg") no-repeat center center fixed;
-  background-size: cover;
-  background-blend-mode: lighten;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  /* background-image: url("images/photo.jpg"); */
-  /* background-repeat: repeat-y; */
-  /* background-size: 125%; */
-}
+
 .container {
     max-width: 1080px;
     color: white;
@@ -47,6 +37,14 @@ body {
     padding: 5px;
     font-family: 'Raleway', sans-serif;
   }
+
+body {
+  background: url("../images/native_painting.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
 
 h1 {
   font-family: 'Dancing Script', cursive;
